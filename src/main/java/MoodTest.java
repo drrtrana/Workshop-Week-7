@@ -12,6 +12,7 @@ public class MoodTest {
         int a = MoodRing.num;
         rings[2].receivePinch(a);
         MoodRing.display();
+        MoodRing.display("n");
         rings[2] = m1;
 
         int i;
